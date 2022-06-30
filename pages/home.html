@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/my_home.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="../js/new_home.js"></script>
+     <title>Employee Payroll App</title>
+</head>
+<body>
+   <!--uc1-->
+   <body>
+    <header class="header-content header">
+        <div class="logo-content">
+            <img src="../asserts/logo.png" alt="logo">
+            <div>
+                <span class="emp-text">EMPLOYEE</span> <br>
+                <span class="emp payroll">PAYROLL</span>
+            </div>
+        </div>
+   </header>
+   <div class="main-content">
+
+    <!--UC2-->
+    
+    <!-- <div class="header-content">
+         <div class="emp-detail-text">
+             Employee Details <div class="emp-count">10</div>
+         </div>
+         <a href="../pages/inputPayRollApp.html" class="add-button">
+             <img src="../asserts/add-24px.svg" alt="">Add user</a>
+     </div> -->
+
+     <!--UC2-->
+    
+    <div class="header-content">
+        <div class="emp-detail-text">
+            Employee Details <div class="emp-count">10</div>
+        </div>
+        <a href="../pages/inputPayRollApp.html" class="add-button">
+            <img src="../asserts/add-24px.svg" alt="">Add user</a>
+    </div>
+    <div class="table-main">
+       <table id="table-display" class="table">
+           <tr>
+               <th></th>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Department</th>
+                <th>Salary</th>
+                <th>Start  Date</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td>
+                    <img class="profile" alt=""  src="../asserts/Ellipse -02.png">
+
+                </td>
+                <td>Kalyani Rathod</td>
+                <td>Female</td>
+                <td>
+                    <div class="dept-lable">HR</div>
+                    <div class="dept-lable">Finance</div>
+                </td>
+                <td>3000000</td>
+                <td>1 Nov 2020</td>
+                <td>
+                    <img id="1" onclick="remove(this)" alt="delete" src="../asserts/filled-trash.png">
+                    <img id="1" alt="edit" onclick="update(this)" src="../asserts/edit.png">
+                </td>
+            </tr>
+</body>
+     <!--UC3-->
+     <div class="table-main">
+        <table id="table-display" class="table"></table>
+      </div>
+    </div>
+    <script src="../js/site_properties.js"></script>
+    <script src="../js/utility.js"></script>
+    <script src="../js/payrollData.js"></script>
+    <script src="../js/EmployeePayrollData.js"></script>
+    </div>
+    </body>
+</html>
